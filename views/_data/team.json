@@ -1,0 +1,60 @@
+{
+    "students" : [
+        {
+            "firstname": "Jeroen",
+            "lastname": "Dewelde",
+            "socials" : {
+                "linkedin": "https://www.linkedin.com/in/jeroen-dewelde-162533134/",
+                "github": "https://github.com/pgm-jeroendewelde"
+            },
+            "email": "Jeroen.Dewelde@gmail.com",
+            "role": "Front-end developer",
+            "picture": "/assets/img/team/Jeroen.png"
+        },
+        {
+            "firstname": "Tischa",
+            "lastname": "Nyanguile",
+            "socials" : {
+                "linkedin": "https://www.linkedin.com/in/tischa-nyanguile",
+                "github": "https://github.com/TischaNy"
+            },
+            "email": "nyanguile.tischa@gmail.com ",
+            "role": "Back-end developer",
+            "picture": "/assets/img/team/Tischa.png"
+        },
+        {
+            "firstname": "Merline",
+            "lastname": "Coppieters",
+            "socials" : {
+                "linkedin": "https://www.linkedin.com/in/merline-coppieters",
+                "github": "https://github.com/Merlinecoppieters"
+            },
+            "email": "merlcoppieters@gmail.com",
+            "role": "Researcher, Innovation manager, Business modeling, communications, Facilitator",
+            "picture": "/assets/img/team/Merline.png"
+        }
+    ],
+    "coaches" : [
+        {
+            "firstname": "Miet",
+            "lastname": "Claes",
+            "socials" : {
+                "linkedin": "https://www.linkedin.com/in/mietcls/",
+                "github": "https://github.com/mietcls"
+            },
+            "email": "mail@address.com",
+            "role": "Coach / Coordinator",
+            "picture": "/assets/img/team/Miet.png"
+        },
+        {
+            "firstname": "Michiel",
+            "lastname": "Leyman",
+            "socials" : {
+                "linkedin": "https://www.linkedin.com/in/michiel-leyman/",
+                "github": "https://github.com/MichielLeyman"
+            },
+            "role": "Coach",
+            "picture": "/assets/img/team/Michiel.png"
+        }
+    ]
+}

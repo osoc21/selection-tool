@@ -1,0 +1,51 @@
+<div class="team">
+    <h4>Students</h4>
+    <ul>
+    {% for student in team.students %}
+        <li>
+            <img src="{{ student.picture | url  }}" alt="picture of {{ student.firstname }}">
+            <span class="team__name">{{ student.firstname }}  {{ student.lastname }}</span>
+            <span class="team__role">{{ student.role }}</span>
+            <ul>
+            {% for key, item in student.socials %}
+                <li>
+                    <a href="{{ item }}" title="visit the {{ key }}-page of {{ student.firstname }}" target="_blank">
+                        {{ site.icons[key] | safe }}
+                    </a>
+                </li>
+            {% endfor %}
+                <li>
+                    <a href="mailto:{{ student.email }}">{{ site.icons['mail'] | safe}}</a>
+                </li>
+            </ul>
+            
+            
+        </li>
+    {% endfor %}
+    </ul>
+
+    <h4>Coaches</h4>
+    <ul>
+        {% for coach in team.coaches %}
+        <li>
+            <img src="{{ coach.picture | url  }}" alt="picture of {{ coach.firstname }}">
+            <span class="team__name">{{ coach.firstname }}  {{ coach.lastname }}</span>
+            <span class="team__role">{{ coach.role }}</span>
+            <ul>
+            {% for key, item in coach.socials %}
+                <li>
+                    <a href="{{ item }}" title="visit the {{ key }}-page of {{ coach.firstname }}">
+                        {{ site.icons[key] | safe }}
+                    </a>
+                </li>
+            {% endfor %}
+                <li>
+                    <a href="mailto:{{ coach.email }}">{{ site.icons['mail'] | safe}}</a>
+                </li>
+            </ul>
+            
+        </li>
+    {% endfor %}
+    </ul>
+
+</div>
