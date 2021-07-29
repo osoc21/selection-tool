@@ -36,6 +36,7 @@ body {
 
   main {
     flex-grow: 1;
+    margin-top: 2rem;
   }
 }
 
@@ -62,3 +63,31 @@ h4 {font-size: 1.44rem;}
 h5 {font-size: 1.2rem;}
 
 small, .text_small {font-size: 0.833rem;}
+
+
+.intro__teamList {
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+  list-style-type: circle;
+
+  a {
+    color: $color-darkblue;
+
+    &:visited {
+      color: $color-darkblue
+    }
+
+    &:hover,
+    &:focus {
+      color: $color-red;
+    }
+  }
+}
+
+.inline-link {
+  color: $color-red;
+
+  &:hover {
+    color: $color-green;
+  }
+}

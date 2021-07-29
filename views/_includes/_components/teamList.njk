@@ -2,7 +2,7 @@
     <h4>Students</h4>
     <ul>
     {% for student in team.students %}
-        <li>
+        <li id="{{student.firstname}}">
             <img src="{{ student.picture | url  }}" alt="picture of {{ student.firstname }}">
             <span class="team__name">{{ student.firstname }}  {{ student.lastname }}</span>
             <span class="team__role">{{ student.role }}</span>
@@ -14,7 +14,7 @@
                     </a>
                 </li>
             {% endfor %}
-                <li>
+                <li >
                     <a href="mailto:{{ student.email }}">{{ site.icons['mail'] | safe}}</a>
                 </li>
             </ul>
@@ -27,7 +27,7 @@
     <h4>Coaches</h4>
     <ul>
         {% for coach in team.coaches %}
-        <li>
+        <li id="{{ coach.firstname }}">
             <img src="{{ coach.picture | url  }}" alt="picture of {{ coach.firstname }}">
             <span class="team__name">{{ coach.firstname }}  {{ coach.lastname }}</span>
             <span class="team__role">{{ coach.role }}</span>
