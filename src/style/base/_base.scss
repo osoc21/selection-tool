@@ -126,3 +126,28 @@ small, .text_small {font-size: 0.833rem;}
     color: $color-green;
   }
 }
+
+
+.images-list {
+  display: flex;
+  //flex-direction: column;
+  flex-wrap: wrap;
+
+  > figure {
+    width: 30rem;
+    max-width: 80%;
+    padding: 1rem;
+
+    img {
+      max-width: 100%;
+    }
+  }
+}
+
+.images-gif {
+
+  > figure {
+    width: 15rem;
+  }
+}
+

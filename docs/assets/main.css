@@ -123,6 +123,23 @@ small, .text_small {
   color: #44DBA4;
 }
 
+.images-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.images-list > figure {
+  width: 30rem;
+  max-width: 80%;
+  padding: 1rem;
+}
+.images-list > figure img {
+  max-width: 100%;
+}
+
+.images-gif > figure {
+  width: 15rem;
+}
+
 footer {
   margin-top: auto;
   background-color: #0A0839;
