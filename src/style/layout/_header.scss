@@ -1,8 +1,8 @@
 header {
-  // position: fixed;
+  position: fixed;
   width: 100%;
   // height: 5rem;
-  // z-index: 50;
+  z-index: 50;
   //overflow: hidden;
 }
 
@@ -30,16 +30,19 @@ header {
     position: absolute;
     visibility: hidden;
     opacity: 1;
-    width: 50%;
-    max-width: 30rem;
+    //border: solid 2px green;
+    //width: 50%;
+    width: 20rem;
+    max-width: 50%;
+    max-width: 20rem;
     transform: translateX(100%);
     transition: all .4s ease-in-out;
     
-    background-color: $color-darkblue;
+    background-color: $color-red;
     border-radius: 4px;
-    color: #FFF;
-    height: calc( 100vh - 5rem);
-    top: 5rem;
+    color: $color-darkblue;
+    height: calc( 100vh - 6rem);
+    top: 6rem;
     right: 0;
     z-index: 50;
     box-shadow: $level-3;

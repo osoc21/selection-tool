@@ -36,7 +36,8 @@ body {
 
   main {
     flex-grow: 1;
-    margin-top: 2rem;
+    transform: translateY(-2rem);
+    //margin-top: 5rem;
   }
 }
 
@@ -62,13 +63,47 @@ h4 {font-size: 1.44rem;}
 
 h5 {font-size: 1.2rem;}
 
+h2 {
+  //margin-top: 2rem;
+  // position: relative;
+  // display: inline-block;
+  padding-top: 6.5rem;
+}
+
+
+h3, h4 {
+  position: relative;
+  display: inline-block;
+
+  &:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translateY(4px);
+    content: '';
+    height: 1px;
+    width: 100%;
+    background-color: $color-red;
+  }
+}
+
+h4 {
+  &:after {
+    transform: translateY(2px);
+    background-color: $color-green;
+  }
+}
+
 small, .text_small {font-size: 0.833rem;}
 
 
-.intro__teamList {
+.list--simple {
   margin-left: 2rem;
   margin-bottom: 1rem;
   list-style-type: circle;
+}
+
+.intro__teamList {
 
   a {
     color: $color-darkblue;

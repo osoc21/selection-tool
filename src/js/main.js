@@ -15,6 +15,13 @@
         this.$navbar.classList.toggle('visible');
         this.$menuToggler.classList.toggle('visible');
       });
+
+      document.querySelector('.navbar__nav').addEventListener('click', () => {
+        console.log('tok');
+        this.$navbar.classList.toggle('visible');
+        //console.log(this.$navbar);
+        this.$menuToggler.classList.toggle('visible');
+      })
     }
 
   }

@@ -1,5 +1,5 @@
 <div class="team">
-    <h4>Students</h4>
+    <h3>Students</h3>
     <ul>
     {% for student in team.students %}
         <li id="{{student.firstname}}">
@@ -24,7 +24,7 @@
     {% endfor %}
     </ul>
 
-    <h4>Coaches</h4>
+    <h3>Coaches</h3>
     <ul>
         {% for coach in team.coaches %}
         <li id="{{ coach.firstname }}">
