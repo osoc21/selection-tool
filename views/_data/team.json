@@ -45,16 +45,6 @@
             "email": "sherlock@miet.be",
             "role": "Coach / Coordinator",
             "picture": "/assets/img/team/Miet.png"
-        },
-        {
-            "firstname": "Michiel",
-            "lastname": "Leyman",
-            "socials" : {
-                "linkedin": "https://www.linkedin.com/in/michiel-leyman/",
-                "github": "https://github.com/MichielLeyman"
-            },
-            "role": "Coach",
-            "picture": "/assets/img/team/Michiel.png"
         }
     ]
 }
